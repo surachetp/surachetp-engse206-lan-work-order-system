@@ -14,11 +14,12 @@
 
 ## System Context
 
-```mermaid
 flowchart LR
-  U[Primary User] --> S[Your System]
-  O[Operational Staff] --> S
-  S --> X[External System / Policy]
+    U[Primary User] --> S[Your System]
+    O[Operational Staff] --> S
+    S --> X[External System / Policy]
+    
+    style S fill:#f9f,stroke:#333,stroke-width:2px-> X[External System / Policy]
 ```
 ## Scope
 
