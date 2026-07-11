@@ -12,15 +12,13 @@
 | Management | ผู้บริหาร | ตรวจสอบ KPI และคุณภาพการให้บริการ | ขาดข้อมูลสำหรับตัดสินใจ |
 | System Administrator | ดูแลระบบและสิทธิ์ผู้ใช้งาน | ระบบทำงานได้อย่างต่อเนื่อง | ความปลอดภัยและความถูกต้องของข้อมูล |
 
-## System Context
+## 🌐 System Context Diagram
 
+```mermaid
 flowchart LR
     U[Primary User] --> S[Your System]
     O[Operational Staff] --> S
     S --> X[External System / Policy]
-    
-    style S fill:#f9f,stroke:#333,stroke-width:2px-> X[External System / Policy]
-```
 ## Scope
 
 ### In Scope
