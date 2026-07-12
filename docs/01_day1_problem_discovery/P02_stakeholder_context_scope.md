@@ -14,17 +14,17 @@
 ---
 
 ## System Context
-# P02 — Stakeholder, Context and Scope
+## System Context
 
-## Stakeholder Map
+![System Context Diagram](context_diagram.png)
 
-![Stakeholder Map](stakeholder_map.png)
+### External Actors
 
-| Stakeholder | Role / Interest | Goal | Concern / Conflict |
-|------------|----------------|------|-------------------|
-| User Requester | ผู้แจ้งปัญหาด้าน IT | แจ้งปัญหาได้ง่ายและติดตามสถานะได้ | งานล่าช้า ไม่ทราบสถานะ |
-| IT Support | ผู้รับผิดชอบแก้ไขปัญหา | จัดการงานได้เป็นระบบ | ข้อมูลแจ้งซ่อมไม่ครบถ้วน |
-...
+1. User Requester
+2. IT Support
+3. IT Manager
+4. Purchasing
+5. Warehouse
 
 ### External Actors
 
